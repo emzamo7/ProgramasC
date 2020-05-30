@@ -39,3 +39,17 @@ if (n == 999 || (n > 0 && n <= 100))
 Try It Yourself
 
 Parentheses are used for clarity even though && has higher precedence than || and will be evaluated first.
+
+*****************************
+
+The ! Operator
+
+The logical NOT operator ! returns the reverse of its value.
+NOT true returns false, and NOT false returns true.
+
+For example:
+if (!(n == 'x' || n == 'X'))
+  printf("Roman numeral is not 10.\n"); 
+
+
+In C, any non-zero value is considered true and a 0 is false. The logical NOT operator therefore, converts a true value to 0 and a false value to 1.
